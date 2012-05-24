@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "dbknow", ".", "{2DFD440D-6E33-4F0A-8D56-D8433CE3BEFF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/dbKnow"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\webdev\dbknow\dbKnow\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\dbKnow\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/dbKnow"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\webdev\dbknow\dbKnow\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\dbKnow\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1151"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DFD440D-6E33-4F0A-8D56-D8433CE3BEFF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{2DFD440D-6E33-4F0A-8D56-D8433CE3BEFF}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

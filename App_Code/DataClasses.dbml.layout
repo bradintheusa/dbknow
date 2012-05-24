@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses">
+  <DataContextMoniker Name="/DBMap" />
+  <nestedChildShapes>
+    <classShape Id="02a77913-aa1a-40fa-a621-b2cab3260a09" absoluteBounds="3.5, 1.375, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/DBMap/trn_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab8ee295-fb91-43b8-b719-3d7504e76443" absoluteBounds="3.5150000000000006, 1.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7da7b65c-f380-411e-8984-cb3ce18fddad" absoluteBounds="0.75, 1.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/DBMap/trn_Database" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f7b8a03-08f4-4604-a053-2815b39d1281" absoluteBounds="0.76500000000000012, 1.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.64505126953125); (3.5 : 2.64505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBMap/trn_Database/trn_Database_trn_Table" />
+      <nodes>
+        <classShapeMoniker Id="7da7b65c-f380-411e-8984-cb3ce18fddad" />
+        <classShapeMoniker Id="02a77913-aa1a-40fa-a621-b2cab3260a09" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="fde31c0f-3509-41c9-b017-d06009f49141" absoluteBounds="6.25, 1, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/DBMap/trn_Field" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24e4c056-d19b-4c61-bd66-c662b05b4958" absoluteBounds="6.2650000000000006, 1.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.64505126953125); (6.25 : 2.64505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBMap/trn_Table/trn_Table_trn_Field" />
+      <nodes>
+        <classShapeMoniker Id="02a77913-aa1a-40fa-a621-b2cab3260a09" />
+        <classShapeMoniker Id="fde31c0f-3509-41c9-b017-d06009f49141" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
